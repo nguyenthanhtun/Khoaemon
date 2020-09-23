@@ -1,0 +1,486 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+
+::-webkit-scrollbar 
+{ 
+    display: none; 
+}
+
+.ten
+{
+	color: #ffffffb8;
+    font-family: 'Merriweather', serif;
+    font-size: 46px;
+    padding: 46px 10px;
+}
+.tindau:hover .layer1
+{
+	transform: scale(1.5);
+}
+.login
+{
+	margin-top: 15px;
+	margin-left: 730px;
+}
+.login a
+{
+	color: white;
+	border: 1px solid gray;
+	border-radius: 20px;
+	padding: 5px 20px;
+	font-size: 18px;
+	text-decoration: none
+}
+/**menu**/
+.menu p
+{
+    color: white;
+    line-height: 48px;
+    padding: 0px 20px;
+    float: left;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+.menu
+{
+	background-color: black;
+	width: 100%;
+	height: 50px;
+	display: inline-flex;
+}
+.menu ul
+{
+	display: inline-flex;
+	list-style: none;
+}
+.menu ul li
+{
+	display:block;
+	margin: 0px 10px;
+	padding: 10px 10px;
+}
+.menu ul li a
+{
+	text-decoration: none;
+	font-size: 18px;
+	font-family: 'Merriweather', serif;
+	color: white;
+}
+.menu ul li:hover
+{
+	background-color: #00000005;
+	font-size: 20px;
+	transition: 0.2s;
+}
+.menu ul li a:hover
+{
+	color: lightblue;
+}
+.home
+{
+	color: #fff;
+}
+.home .fa
+{
+	margin-right: 8px;
+}
+.submenu
+{
+ 	display:none;
+}
+.submenu ul li a
+{
+	font-size: 20px;
+}
+.menu ul li:hover .submenu
+{
+	border-radius:5px;
+	display: block;
+	position: absolute;
+	background-color: #00000085;
+	margin-top: 5px; 
+	margin-left: -15px;
+	
+}	
+.menu:hover .submenu ul
+{
+	display: block;
+}
+.menu:hover .submenu ul li
+{
+  	text-align:left;
+    margin-left: 5px;
+}
+/**menu end**/
+
+.n1, .n2, .n3
+{
+
+	background-image: url(n5.jpg);
+    background-size: cover;
+    height: 750px;
+    width: 100%;
+    font-family: 'Merriweather', serif;
+    background-attachment: fixed;
+}
+.ndn1
+{
+	width: 1300px;
+    margin: auto;
+    font-size: 25px;
+    color: white;
+}
+.chuto
+{
+	font-weight: bold;
+	font-size: 35px;
+	padding-top: 50px;
+	padding-bottom: 10px;
+	color: white;
+}
+.shop
+{
+	color:white;
+	border:1px solid white;
+	border-radius: 5px;
+	background-color: transparent;
+	text-decoration: none;
+	font-size: 10px;
+	padding:10px 20px;
+}
+.shop:hover
+{
+	background-color: transparent;
+	color: lightblue;
+	border:1px solid lightblue;
+	font-weight: bold;
+	font-size: 20px;
+	transition: 0.4s;
+}
+
+.n2
+{
+	background-image: url(n3.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.ndn2 
+{
+    margin-left: -320px;
+    padding-top: 240px;
+    text-align: center;
+}
+.chunho2
+{
+	font-size: 30px;
+    color: black;
+    
+}
+.chuto2
+{
+	font-weight: bold;
+	font-size: 40px;
+	color: black;
+	padding-bottom: 20px;
+	margin-right: 30px;
+}
+.shop2
+{
+	color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #0000003b;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.shop2:hover
+{
+	background-color: #00000038;
+	color: black;
+	border:1px solid black;
+	font-weight: bold;
+	font-size: 30px;
+	transition: 0.3s;
+}
+
+.n3
+{
+	background-image: url(shop.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.ndn3
+{
+    padding-top: 180px;
+    text-align: center;
+}
+.chuto3
+{
+	margin-right: 23px;
+	font-size: 45px;
+	color: white;
+	padding-bottom: 40px;
+}
+.shop3
+{
+	color:white;
+	border:1px solid white;
+	border-radius: 5px;
+	background-color: transparent;
+	text-decoration: none;
+	font-size: 12px;
+	padding:12px 22px;
+	margin-right: 25px;
+
+}
+.shop3:hover
+{
+	background-color: transparent;
+	color: lightblue;
+	border:1px solid lightblue;
+	font-weight: bold;
+	font-size: 22px;
+	transition: 0.4s;
+}
+.ten
+{
+	color: #ffffffb8;
+    font-family: 'Merriweather', serif;
+    font-size: 46px;
+    padding: 46px 10px;
+}
+.tindau:hover .layer1
+{
+	transform: scale(1.5);
+}
+.login
+{
+	margin-top: 15px;
+	margin-left: 730px;
+}
+.login a
+{
+	color: white;
+	border: 1px solid gray;
+	border-radius: 20px;
+	padding: 5px 20px;
+	font-size: 18px;
+	text-decoration: none
+}
+/**menu**/
+.menu p
+{
+    color: white;
+    line-height: 48px;
+    padding: 0px 20px;
+    float: left;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+.menu
+{
+	background-color: black;
+	width: 100%;
+	height: 50px;
+	display: inline-flex;
+}
+.menu ul
+{
+	display: inline-flex;
+	list-style: none;
+}
+.menu ul li
+{
+	display:block;
+	margin: 5px 10px;
+	padding: 10px 10px;
+}
+.menu ul li a
+{
+	text-decoration: none;
+	font-size: 18px;
+	color: white;
+}
+.menu ul li:hover
+{
+	background-color: #00000005;
+	font-size: 20px;
+	transition: 0.2s;
+}
+.menu ul li a:hover
+{
+	color: lightblue;
+}
+.home
+{
+	color: #fff;
+}
+.home .fa
+{
+	margin-right: 8px;
+}
+.submenu
+{
+ 	display:none;
+}
+.submenu ul li a
+{
+	font-size: 20px;
+}
+.menu ul li:hover .submenu
+{
+	border-radius:5px;
+	display: block;
+	position: absolute;
+	background-color: #00000085;
+	margin-top: 5px; 
+	margin-left: -15px;
+	
+}	
+.menu:hover .submenu ul
+{
+	display: block;
+}
+.menu:hover .submenu ul li
+{
+  	text-align:left;
+    margin-left: 5px;
+}
+/**menu end**/
+
+.n1, .n2, .n3
+{
+
+	background-image: url(n5.jpg);
+    background-size: cover;
+    height: 750px;
+    width: 100%;
+    font-family: 'Merriweather', serif;
+    background-attachment: fixed;
+}
+.ndn1
+{
+	width: 1300px;
+    margin: auto;
+    font-size: 25px;
+    color: white;
+}
+.chuto
+{
+	font-weight: bold;
+	font-size: 35px;
+	padding-top: 50px;
+	padding-bottom: 10px;
+	color: white;
+}
+.shop
+{
+	color:white;
+	border:1px solid white;
+	border-radius: 5px;
+	background-color: transparent;
+	text-decoration: none;
+	font-size: 10px;
+	padding:10px 20px;
+}
+.shop:hover
+{
+	background-color: transparent;
+	color: lightblue;
+	border:1px solid lightblue;
+	font-weight: bold;
+	font-size: 20px;
+	transition: 0.4s;
+}
+
+.n2
+{
+	background-image: url(n3.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.ndn2 
+{
+    margin-left: -320px;
+    padding-top: 240px;
+    text-align: center;
+}
+.chunho2
+{
+	font-size: 30px;
+    color: black;
+    
+}
+.chuto2
+{
+	font-weight: bold;
+	font-size: 40px;
+	color: black;
+	padding-bottom: 20px;
+	margin-right: 30px;
+}
+.shop2
+{
+	color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #0000003b;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.shop2:hover
+{
+	background-color: #00000038;
+	color: black;
+	border:1px solid black;
+	font-weight: bold;
+	font-size: 30px;
+	transition: 0.3s;
+}
+
+.n3
+{
+	background-image: url(shop.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.ndn3
+{
+    padding-top: 180px;
+    text-align: center;
+}
+.chuto3
+{
+	margin-right: 23px;
+	font-size: 45px;
+	color: white;
+	padding-bottom: 40px;
+}
+.shop3
+{
+	color:white;
+	border:1px solid white;
+	border-radius: 5px;
+	background-color: transparent;
+	text-decoration: none;
+	font-size: 12px;
+	padding:12px 22px;
+	margin-right: 25px;
+
+}
+.shop3:hover
+{
+	background-color: transparent;
+	color: lightblue;
+	border:1px solid lightblue;
+	font-weight: bold;
+	font-size: 22px;
+	transition: 0.4s;
+}
